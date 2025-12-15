@@ -3,7 +3,7 @@
 End-to-end data analytics project analyzing apartment prices in Opole.
 
 ## Goal
-Analyze apartment prices per square meter across districts of Opole using real estate listings data.
+Analyze apartment prices per square meter across districts of Opole to identify pricing differences and market patterns.
 
 ## Tech Stack
 - Python (Selenium, pandas)
