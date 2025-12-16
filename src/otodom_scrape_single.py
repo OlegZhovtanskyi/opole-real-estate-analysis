@@ -41,7 +41,7 @@ wait = WebDriverWait(driver, 15)
 try:
     cookies_button = wait.until(
     (EC.element_to_be_clickable(
-        (By.XPATH, "//*[contains(text(), 'Akceptuj')]")
+        (By.XPATH, "//button[contains(., 'Akceptuj')]")
     ))
     )
     cookies_button.click()
