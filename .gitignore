@@ -1,18 +1,24 @@
+# IDE
+.vscode/
+.idea/
+
 # Python
 __pycache__/
-*.pyc
-
-# Virtual environment
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
 venv/
-.env
-
-# Data files
-data/raw/
-data/processed/
-
-# OS
-.DS_Store
+*.egg-info/
 
 # Jupyter
 .ipynb_checkpoints/
 
+# Data (опціонально, якщо не хочеш пушити дані)
+data/raw/*.csv
+data/processed/*.csv
+
+# OS
+.DS_Store
+Thumbs.db
